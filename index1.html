@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;   
+            align-items: center; 
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            width: 100vw; 
+            height: auto; 
+            object-fit: cover;
+            z-index: -1000;
+        }
+        
+
+        .button {
+            transition: transform 0.3s ease-in-out; 
+            margin-bottom: 20px; 
+            margin-left: 90px;
+            cursor: pointer;
+            top: 90vh;
+            max-width: 100%; /* ปรับขนาดรูปให้ไม่เกินขนาดปุ่ม */
+            height: auto; /* ปรับสัดส่วนของรูป */
+        }
+        .content {
+            position: fixed;
+            top: 50%;
+            left: 10%;
+            transform: translate(-8%, -50%);
+            margin: 0 10px;
+            flex: 0 0 auto; /
+          
+        }
+
+        .button:hover {
+            transform: scale(0.9);
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="content">
+    <center><a href="ตอนที่1.html"><img src="1.png" alt="Button 1" class="button" width="450px" height="auto"></a>
+    <a href="ตอนที่2.html"><img src="2.png" alt="Button 2" class="button" width="450px" height="auto"></a>
+    <a href="ตอนที่3.html"><img src="3.png" alt="Button 3" class="button" width="450px" height="auto"></a><br>
+    <a href="ตอนที่4.html"><img src="4.png" alt="Button 4" class="button" width="450px" height="auto"></a>
+    <a href="ตอนที่5.html"><img src="5.png" alt="Button 5" class="button" width="450px" height="auto"></a></center>
+</div>
+</body>
+<head>
+<body>
+    <style>
+    b1 {
+        position: fixed;
+        top: 50%;
+        left: 10%;
+        transform: translate(155%, 460%);
+    }
+    </style>
+
+    <div class="content1"></div>
+    <b1><center><a href="index.html"><img src="back.png" alt="Button 4" class="button" width="250px" height="auto"></a></center></b1>
+    </body>
+ </head>   
+</div>
+</html>

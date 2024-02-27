@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+       body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  #video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: auto;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    z-index: -1000;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+  }
+  .button {
+            transition: transform 0.3s ease-in-out; 
+            margin-bottom: -780px; 
+            
+            margin-left: 120px;
+            
+  }
+        .button:hover {
+            transform: scale(0.95);
+        }
+
+     
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="video-background">
+  <source src="bg.mp4" type="video/mp4">
+ </video> 
+ <body>
+    <div class="button-container">
+    <center><a href="index1.html"><img src="b1.png" alt="Button 1" class="button" width="300" height="auto"></a>
+    <a href="cha.html"><img src="b2.png" alt="Button 2" class="button" width="400" height="auto"></center></a>
+    </div>
+</body>
+
+
+</html>
